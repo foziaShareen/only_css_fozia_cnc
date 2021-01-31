@@ -1,0 +1,109 @@
+body {
+    font-family:  Times, serif;
+    font-size:larger;
+    padding: 2px;
+    margin-bottom: 10px;
+    background-color:lightyellow;
+}
+
+h1 {
+    text-align: center;
+}
+
+.tables{
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    background-color:lightslategray;
+    padding: 20px;
+}
+#La,#Ce,#Pr,#Nd,#Pm,#Sm,#Eu,#Gd,#Tb,#Er,
+#Dy,#Ho,#Tm,#Yb,#Lu,#Ac,#Th,#Pa,#U,#Np,
+#Pu,#Am,#Cm,#Bk,#Cf,#Es,#Fm,#Md,#No,#Lr{
+    background-color:palevioletred ;
+}
+#H{
+    background-color:rgb(241, 119, 32) ;
+}
+#Li,#Na,#K,#Rb,#Cs,#Fr{
+    background-color: darkorchid;
+    border: 1px solid black;
+    transition: transform 0.1s;
+}
+
+ #C,#N,#O,#P,#S,#Se {
+    background-color:darkgoldenrod;
+    border: 1px solid black;
+    
+}
+
+ #F,#Cl,#Br,#I,#At {
+    background-color:sandybrown;
+    
+
+}
+#Nh,#Fl,#Mc,#Lv,#Ts,#Og{
+    background-color: seashell;
+}
+
+
+
+
+#Li:hover, #Na:hover, #Rb:hover, #Cs:hover, #Fr:hover {
+    background-color: #b277e6;
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale;
+    transform: scale(1.5);
+}
+
+#Be, #Mg, #Ca,#Sr,#Ba, #Ra {
+    background-color:darkslateblue;
+    border: 1px solid black;
+    transition: transform 0.1s;
+}
+
+#Be:hover, #Mg:hover, #Ca:hover, #Sr:hover, #Ba:hover, #Ra:hover {
+
+    background-color: #439ad3;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale;
+    transform: scale(1.5);
+}
+
+#Sc, #Ti, #V, #Y,#Hf,#Rf,#Zr,#Nb,#Ta,#Db,#Sg,#Ag,#Au,#Rh,
+#Mt,#Ds,#Rg,#Bh,#W,#Re,#Hs,#Ir,#Pd,#Co,#Ni,#Cu,#Zn,#Cd,
+#Cr,#Fe,#Ru,#Os,#Tc,#Mn,#Ir,#Mt,#Ds,
+#Pt,#Hg,
+#Cn,
+#Mo {
+    background-color: #e4a17c;
+    border: 1px solid rgb(0, 0, 0);
+    
+}
+#none{
+    border:crimson;
+}
+
+#Sc,#Cr,#Ag,#Rg,#Au,#Rh,#Rg,#Ti,
+#V,#Y,#Hf,#Rf,#Zr,#Nb,
+#Ta,#Db,#Sg,#Bh,#W,#Re,
+#Hs,#I,#Pd,#Co,#Ni,#Cu,#Zn,#Cd,
+#Fe,#Ru,#Os,#Tc,#Mn,#Pt,#Hg,#Cn,
+#Mo ,#Ir,#Mt,#Ds{
+    background-color:rgb(247, 223, 12);
+    
+
+}
+#He,#Ne,#Ar,#Kr,#Xe,#Rn{
+    background-color:royalblue ;
+}
+#Al,#Ga,#In,#Sn,#Tl,#Pb,#Bi{
+    background-color: seagreen;
+}
+.empty{
+    background-color: pink;
+}
+#B,#Si,#Ge,#As,#Sb,#Te,#Po{
+    background-color: brown;
+}
